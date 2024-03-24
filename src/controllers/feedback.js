@@ -1,6 +1,4 @@
-const {
-    Feedback
-} = require("../model/model.js");
+const Feedback = require("../models/feedback.js");
 
 // CRUD of feedback
 const addFeedback = (req, res) => {

@@ -1,6 +1,4 @@
-const {
-    Payment
-} = require("../model/model.js");
+const Payment= require("../models/payment.js");
 
 
 // CRUD of payment

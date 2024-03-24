@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const routes = require("./src/routes/routes.js");
+const routes = require("./src/routers/routes.js");
 
 const app = express();
 // Create Port Number

@@ -1,6 +1,4 @@
-const {
-    VehicalOwner
-} = require("../model/model.js");
+const VehicalOwner = require("../models/vehicalOwner.js");
 
 
 // CRUD of Vehical Owner

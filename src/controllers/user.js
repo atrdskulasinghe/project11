@@ -1,6 +1,4 @@
-const {
-    User
-} = require("../model/model.js");
+const User = require("../models/user.js");
 
 // CRUD of User
 const addNewUser = (req, res) => {

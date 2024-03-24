@@ -1,6 +1,4 @@
-const {
-    VehicalDetails
-} = require("../model/model.js");
+const VehicalDetails= require("../models/vehicalDetails.js");
 
 
 // CRUD of Vehical Details

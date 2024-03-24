@@ -1,6 +1,4 @@
-const {
-    BookingDetails
-} = require("../model/model.js");
+const BookingDetails = require("../models/bookingDetails.js");
 
 // CRUD of Booking Details
 const addBookingDetails = (req, res) => {

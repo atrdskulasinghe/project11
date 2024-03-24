@@ -1,6 +1,4 @@
-const {
-    Renter
-} = require("../model/model.js");
+const Renter = require("../models/renter.js");
 
 // CRUD of Renter
 const addRenter = (req, res) => {

@@ -1,6 +1,4 @@
-const {
-    Contact,
-} = require("../model/model.js");
+const Contact = require("../models/contact.js");
 
 
 // CRUD of contact

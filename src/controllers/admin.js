@@ -1,6 +1,4 @@
-const {
-    Admin
-} = require("../model/model.js");
+const Admin = require("../models/admin.js");
 
 // CRUD of Admin
 const addAdmin = (req, res) => {
@@ -53,12 +51,10 @@ const updateAdmin = (req, res) => {
         });
 };
 
-
 // export to the route page
 module.exports = {
     addAdmin,
     getAdmin,
     deleteAdmin,
     updateAdmin,
-  };
-  
+};
