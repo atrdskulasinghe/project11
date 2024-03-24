@@ -1,29 +1,22 @@
-const express = require("express");
 const mongoose = require("mongoose");
-const bodyParser = require("body-parser");
-// const routers = require("./src/routes/routes");
+const express = require("express");
 const cors = require("cors");
-const session = require('express-session');
-
+const bodyParser = require("body-parser");
+const routes = require("./src/routes/routes.js");
 
 const app = express();
-const PORT = 8000;
+// Create Port Number
+const port = 3000;
 
-// mongoose.connect("mongodb://localhost:27017/ticket-book");
+// create DataBase
+mongoose.connect("mongodb://localhost:27017/GroupProject");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-// app.use(session({
-//      secret: 'your-secret-key',
-//      resave: false,
-//      saveUninitialized: false
-// }));
-
 app.use(cors());
 
-// app.use("/", routers);
+app.use("/", routes);
 
-app.listen(PORT, () => {
-     console.log(`Server is running on port ${PORT}`)
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });

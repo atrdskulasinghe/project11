@@ -36,6 +36,12 @@ export default function Reservation() {
     return (
         <div>
             <Nav></Nav>
+            <div className='reservation-header'>
+                <h1>Reservation</h1>
+                <div className='reservation-header-background'>
+                    <img src={headerBackground} alt="" />
+                </div>
+            </div>
             <section>
                 <div className='box'>
                     <div className='reservation'>
@@ -147,6 +153,9 @@ export default function Reservation() {
                                     <div className='reservation-c-input'>
                                         {/* <input type="text" placeholder='Email' /> */}
                                         <textarea name="" id="" cols="30" rows="10" placeholder='Additional information (Optional)'></textarea>
+                                    </div>
+                                    <div className='reservation-c-button'>
+                                        <button>Reservation Now</button>
                                     </div>
                                 </div>
                             </div>

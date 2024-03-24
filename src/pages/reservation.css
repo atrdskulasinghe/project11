@@ -1,3 +1,34 @@
+.reservation-header {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.reservation-header h1 {
+    z-index: 5;
+    font-size: 50px;
+}
+
+.reservation-header-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.reservation-header-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+
+
 .reservation {
     width: 100%;
     /* height: 300px; */
@@ -206,3 +237,45 @@
 .reservation-c-input.none{
     display: none;
 }
+
+.reservation-c-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.reservation-c-button button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+@media(max-width:992px){
+    .reservation {
+        display: block;
+    }
+
+    .reservation-c-1,
+    .reservation-c-2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .reservation-c-2{
+        margin-top: 40px;
+    }
+
+    .reservation-c-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .reservation-c-1 .car-card{
+        width: 300px;
+    }
+}
+
