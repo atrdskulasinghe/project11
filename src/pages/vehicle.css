@@ -1,0 +1,235 @@
+.vehicle-v-details {
+    width: 100%;
+    /* height: 600px; */
+    /* background-color: red; */
+    display: flex;
+}
+
+.vehicle-vd-images {
+    width: calc(100% - 370px);
+    /* height: 500px; */
+    /* background-color: yellow; */
+}
+
+.vehicle-vd-images h2 {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #707070;
+
+}
+
+.vehicle-vd-main-image {
+    width: 100%;
+    height: 450px;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+.vehicle-vd-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.carousel-wrapper {
+    display: flex;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 150px;
+    /* Adjust as needed */
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.carousel-btn.left {
+    left: 0;
+}
+
+.carousel-btn.right {
+    right: 0;
+}
+
+.carousel-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-container img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/*  */
+.vehicle-vd-book {
+    width: 350px;
+    height: 100%;
+    /* background-color: #0c19c9; */
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.vehicle-info {
+    margin-bottom: 15px;
+}
+
+.vehicle-info p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #707070;
+}
+
+.vehicle-info span {
+    color: black;
+}
+
+.vehicle-b-button{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: green; */
+}
+
+.vehicle-b-button button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: var(--main-color);
+    margin-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.vehicle-b-button button:nth-child(1){
+    border: 1px solid var(--main-color);
+    background-color: white;
+    color: var(--main-color);
+}
+
+.vehicle-b-button button:nth-child(2){
+    cursor: pointer;
+}
+
+@media(max-width:992px){
+    .vehicle-v-details {
+        display: block;
+    }
+
+    .vehicle-vd-images {
+        width: 100%;
+    }
+
+    .vehicle-vd-main-image {
+        height: 300px;
+    }
+
+    .vehicle-vd-book {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+/* review */
+
+.vehicle-review{
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 40px;
+}
+
+.review{
+    width: 100%;
+}
+
+.review h4{
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #707070;
+}
+
+.review-content{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.review-content p{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.review-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.review-image img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-content h5{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.review-stars{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.review-stars ul li{
+    display: inline-block;
+}
+
+.review-stars ul li i{
+    color: gray;
+}
+
+.review-stars ul li i.active{
+    color: rgb(255, 196, 0);
+}

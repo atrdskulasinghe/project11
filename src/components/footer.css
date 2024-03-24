@@ -1,0 +1,169 @@
+footer {
+    width: calc(100% - 40px);
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+}
+
+.footer-content h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-c-1,
+.footer-c-2,
+.footer-c-3,
+.footer-c-4 {
+    width: calc(100% / 4);
+    /* background-color: blue; */
+}
+
+.footer-c-1 img {
+    width: 80px;
+}
+
+.footer-c-1 p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* footer content 2 */
+
+.footer-c-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-c-2 ul {
+    margin-top: 10px;
+}
+
+.footer-c-2 ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer-c-2 ul li a {
+    font-size: 14px;
+    color: rgb(201, 201, 201);
+}
+
+.footer-c-2 ul li a:hover {
+    color: white;
+}
+
+/* footer content 3 */
+
+.footer-c-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-c-3 ul {
+    margin-top: 13px;
+}
+
+.footer-c-3 ul li {
+    list-style: none;
+    margin-bottom: 8px
+}
+
+.footer-c-3 ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(201, 201, 201);
+}
+
+.footer-c-3 ul li a:hover {
+    color: white;
+}
+
+.footer-c-3 ul li a p {
+    margin-left: 8px;
+}
+
+/* footer contnet 4 */
+
+.footer-c-4 {
+    display: flex;
+    justify-content: right;
+}
+
+.footer-c-4 p {
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-c-input {
+    width: calc(100% - 20px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-c-input input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 40px 0 10px;
+    border-radius: 5px;
+}
+
+
+.footer-c-input button {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: -1px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all .5s ease;
+}
+
+.footer-c-input button:hover{
+    background-color: blue;
+}
+
+
+@media(max-width:992px) {
+    .footer-content {
+        display: block;
+    }
+
+    .footer-c-1,
+    .footer-c-2,
+    .footer-c-3,
+    .footer-c-4 {
+        width: 100%;
+        justify-content: left;
+        margin-bottom: 20px;
+    }
+
+    .footer-c-4 {
+        margin-bottom: 0;
+    }
+
+    .footer-c-input {
+        width: 100%;
+    }
+
+    
+}

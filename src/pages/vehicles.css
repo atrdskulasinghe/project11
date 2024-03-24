@@ -1,0 +1,123 @@
+.avc{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* vehicle filter */
+
+.vehicles-filter{
+    width: 250px;
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    /* background-color: red; */
+    /* border: 1px solid rgb(201, 201, 201); */
+    background-color: rgb(221, 221, 221);
+}
+
+.filter-header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+.filter-header h3{
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.filter-content{
+    width: calc(100% - 20px);
+    /* background-color: green; */
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.filter-content p{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #707070;
+    font-size: 14px;
+}
+
+.filter-content input{
+    width: calc(100% - 20px);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.filter-content select{
+    width: 100% ;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.filter-two-c{
+    width: 100%;
+    display: flex;
+}
+
+.filter-two-c input{
+    width: calc((100% / 2) - 5px);
+}
+
+.filter-two-c input:last-child{
+    margin-left: 10px;
+}
+
+
+.filter-contnet button{
+    width: calc(100% - 20px);
+    height: 35px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* available vehicles */
+
+.available-vehicles{
+    width: calc(100% - 270px);
+    /* background-color: red; */
+    margin-left: 20px;
+}
+@media(max-width:992px){
+    
+    .avc{
+
+        display: block;
+    }
+    
+    
+
+    .available-vehicles{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:567px){
+    .vehicles-filter{
+        width: 100%;   
+    }
+}
