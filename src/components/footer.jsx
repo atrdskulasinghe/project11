@@ -62,7 +62,7 @@ export default function footer() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium perferendis, veniam architecto eligendi non sapiente laborum laboriosam eaque suscipit quisquam.</p>
 
                             <div className='footer-c-input'>
-                                <input type="text" placeholder='Enter your email'/>
+                                <input type="text" placeholder='Enter your email' />
                                 <button><i class="ri-send-plane-fill"></i></button>
                             </div>
                         </div>

@@ -7,61 +7,80 @@ const {
   getUser,
   deleteUser,
   updateUser,
+} = require("../controllers/user.js");
 
+const {
   // admin
   addAdmin,
   getAdmin,
   deleteAdmin,
   updateAdmin,
+} = require("../controllers/admin.js");
 
+const {
   // renter
   addRenter,
   getRenter,
   deleteRenter,
   updateRenter,
+} = require("../controllers/renter.js");
 
+const {
   // vehicle owner
   addVehicalOwner,
   getVehicalOwner,
   deleteVehicalOwner,
   updateVehicalOwner,
+} = require("../controllers/vehicalOwner.js");
 
+const {
   // vehicle detail
   addVehicalDetails,
   getVehicalDetails,
   deleteVehicalDetails,
   updateVehicalDetails,
+} = require("../controllers/vehicalDetails.js");
 
+const {
   // vehicle Image
   addVehicalImage,
   getVehicalImage,
   deleteVehicalImage,
   updateVehicalImage,
+} = require("../controllers/vehicleImage.js");
 
+const {
   // booking details
   addBookingDetails,
   getBookingDetails,
   deleteBookingDetails,
   updateBookingDetails,
 
+} = require("../controllers/bookingDetails.js");
+
+const {
   // feedback
   addFeedback,
   getFeedback,
   deleteFeedback,
   updateFeedback,
+} = require("../controllers/feedback.js");
 
+const {
   // payment
   addPayment,
   getPayment,
   deletePayment,
   updatePayment,
+} = require("../controllers/payment.js");
 
+const {
   // contact
   addContact,
   getContact,
   deleteContact,
   updateContact,
-} = require("../controller/controller.js");
+} = require("../controllers/contact.js");
 
 router.route("/").get(getUser).post(addNewUser);
 router.route("/:id").delete(deleteUser);
