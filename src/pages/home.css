@@ -98,11 +98,12 @@
 }
 
 .car-type select {
-    width: 100%;
+    width: calc(100% - 0px);
     height: 40px;
     border-radius: 5px;
     outline: none;
     border: none;
+    padding: 0 10px;
     margin-top: 10px;
 }
 

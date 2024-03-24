@@ -17,11 +17,11 @@ export default function vehicles() {
                             </div>
                             <div className='filter-content'>
                                 <p>Pick Up Location</p>
-                                <input type="text" />
+                                <input type="text" placeholder='Your location' />
                             </div>
                             <div className='filter-content'>
                                 <p>Pick a date</p>
-                                <input type="text" />
+                                <input type="date" />
                             </div>
                             <div className='filter-content'>
                                 <p>Price</p>
@@ -37,13 +37,13 @@ export default function vehicles() {
                             <div className='filter-content'>
                                 <p>Fuel Type</p>
                                 <select name="" id="">
-                                    <option value=""></option>
+                                    <option value="">Select A Option</option>
                                 </select>
                             </div>
                             <div className='filter-content'>
                                 <p>Model Type</p>
                                 <select name="" id="">
-                                    <option value=""></option>
+                                    <option value="">Select A Option</option>
                                 </select>
                             </div>
                             <div className='filter-contnet'>

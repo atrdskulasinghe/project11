@@ -18,39 +18,39 @@ export default function Home() {
                                 <div className='input-content'>
                                     <p>Pick Up Location</p>
                                     <select name="" id="">
-                                        <option value="">aa</option>
+                                        <option value="">Your Location</option>
                                     </select>
                                 </div>
                                 <div className='input-content'>
                                     <p>Pick Up Date</p>
-                                    <input type="text" />
+                                    <input type="date" />
                                 </div>
                                 <div className='input-content'>
                                     <p>Pick Up Time</p>
-                                    <input type="text" />
+                                    <input type="time" />
                                 </div>
                             </div>
                             <div className='header-i-c-2'>
                                 <div className='input-content'>
                                     <p>Dropping off location</p>
                                     <select name="" id="">
-                                        <option value="">aa</option>
+                                        <option value="">Off your location</option>
                                     </select>
                                 </div>
                                 <div className='input-content'>
                                     <p>Dropping off date</p>
-                                    <input type="text" />
+                                    <input type="date" />
                                 </div>
                                 <div className='input-content'>
                                     <p>Dropping off time</p>
-                                    <input type="text" />
+                                    <input type="time" />
                                 </div>
                             </div>
                             <div className='header-i-c-3'>
                                 <div className='car-type'>
                                     <p>Select car type</p>
                                     <select name="" id="">
-                                        <option value="">aa</option>
+                                        <option value="">All cars type</option>
                                     </select>
                                 </div>
                                 <div className='header-search-button'>

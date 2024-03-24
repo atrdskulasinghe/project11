@@ -14,6 +14,7 @@ import Contact from './pages/contact.jsx';
 import Home from './pages/home.jsx';
 import Vehicles from './pages/vehicles.jsx';
 import Reviews from './pages/review.jsx';
+import Reservation from './pages/reservation.jsx';
 // import Movie from './pages/Movie.js';
 // import Movies from './pages/Movies.js';
 // import Profile from './pages/Profile.js';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/vehicles" element={<Vehicles />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/reservation" element={<Reservation />} />
           {/* <Route path="/login" element={!isLoggedIn ? <Login /> : <Navigate to="../" />} /> */}
           {/* <Route path="/signup" element={!isLoggedIn ? <Signup /> : <Navigate to="../" />} /> */}
           
